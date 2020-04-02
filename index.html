@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jogo da Velha</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td id="0" class="box"></td>
+			<td id="1" class="box"></td>
+			<td id="2" class="box"></td>
+		</tr>
+		<tr>
+			<td id="3" class="box"></td>
+			<td id="4" class="box"></td>
+			<td id="5" class="box"></td>
+		</tr>
+		<tr>
+			<td id="6" class="box"></td>
+			<td id="7" class="box"></td>
+			<td id="8" class="box"></td>
+		</tr>
+	</table>
+	
+	<div class="gameover-box">
+		<div class="gameover">
+			<div style="background-image: url('crown-image.png')"></div>
+			<div>
+				<h1>Fim de jogo!</h1>
+				<p><span id="winner"></span></p>
+				<a href="#" onclick='start()'>Jogar novamente</a>
+			</div>
+		</div>
+	</div>
+	<!--JS-->
+	<script src="script.js"></script>
+</body>
+</html>
